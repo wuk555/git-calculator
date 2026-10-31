@@ -19,3 +19,12 @@ def multiply(a, b):
 
 
 print(multiply(6, 7))
+
+
+def divide(a, b):
+    if b == 0:
+        raise ValueError("Divisor cannot be zero")
+    return a / b
+
+
+print(divide(20, 4))
