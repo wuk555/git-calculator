@@ -15,7 +15,7 @@ print(subtract(20, 8))
 
 
 def multiply(a, b):
-    return a + b
+    return a * b
 
 
 print(multiply(6, 7))
