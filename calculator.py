@@ -35,3 +35,13 @@ def power(a, b):
 
 
 print(power(2, 3))
+
+
+def modulo(a, b):
+    if b == 0:
+        raise ValueError("Divisor cannot be zero")
+    return a % b
+
+
+print(modulo(10, 3))
+
