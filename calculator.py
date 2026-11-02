@@ -30,7 +30,7 @@ def divide(a, b):
 print(divide(20, 4))
 
 
-def power(a,b):
+def power(a, b):
     return a ** b
 
 
