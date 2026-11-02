@@ -1,0 +1,15 @@
+# PyCharm / JetBrains
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
