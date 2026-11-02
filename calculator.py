@@ -1,3 +1,6 @@
+from unittest import result
+
+
 def add(a, b):
     result = a + b
     return result
@@ -28,3 +31,10 @@ def divide(a, b):
 
 
 print(divide(20, 4))
+
+
+def power(a,b):
+    return a ** b
+
+
+print(power(2, 3))
