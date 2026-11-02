@@ -3,22 +3,13 @@ def add(a, b):
     return result
 
 
-print(add(10, 5))
-
-
 def subtract(a, b):
     result = a - b
     return result
 
 
-print(subtract(20, 8))
-
-
 def multiply(a, b):
     return a * b
-
-
-print(multiply(6, 7))
 
 
 def divide(a, b):
@@ -27,14 +18,8 @@ def divide(a, b):
     return a / b
 
 
-print(divide(20, 4))
-
-
 def power(a, b):
     return a ** b
-
-
-print(power(2, 3))
 
 
 def modulo(a, b):
@@ -43,5 +28,10 @@ def modulo(a, b):
     return a % b
 
 
-print(modulo(10, 3))
-
+if __name__ == "__main__":
+    print(add(10, 5))
+    print(subtract(20, 8))
+    print(multiply(6, 7))
+    print(divide(20, 4))
+    print(power(2, 3))
+    print(modulo(10, 3))
