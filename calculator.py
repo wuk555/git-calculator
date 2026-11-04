@@ -23,6 +23,7 @@ def power(a, b):
 
 
 def square(a):
+    """Return the square of a number."""
     return multiply(a, a)
 
 
