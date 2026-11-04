@@ -1,5 +1,5 @@
 import unittest
-from calculator import modulo
+from calculator import modulo, square
 
 
 class TestCalculator(unittest.TestCase):
@@ -17,6 +17,14 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ValueError):
             modulo(10, 0)
 
+    def test_square_positive(self):
+        self.assertEqual(square(5), 25)
+
+    def test_square_negative(self):
+        self.assertEqual(square(-3), 9)
+
+    def test_square_zero(self):
+        self.assertEqual(square(0), 0)
 
 if __name__ == "__main__":
     unittest.main()

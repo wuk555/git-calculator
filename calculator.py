@@ -22,6 +22,10 @@ def power(a, b):
     return a ** b
 
 
+def square(a):
+    return multiply(a, a)
+
+
 def modulo(a, b):
     if b == 0:
         raise ValueError("Divisor cannot be zero")
@@ -35,3 +39,4 @@ if __name__ == "__main__":
     print(divide(20, 4))
     print(power(2, 3))
     print(modulo(10, 3))
+    print(square(5))
