@@ -26,5 +26,8 @@ class TestCalculator(unittest.TestCase):
     def test_square_zero(self):
         self.assertEqual(square(0), 0)
 
+    def test_square_fraction(self):
+        self.assertEqual(square(2.5), 6.25)
+
 if __name__ == "__main__":
     unittest.main()
