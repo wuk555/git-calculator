@@ -28,6 +28,7 @@ def square(a):
 
 
 def modulo(a, b):
+    """Return a % b; raise ValueError if b is zero."""
     if b == 0:
         raise ValueError("Divisor cannot be zero")
     return a % b
