@@ -35,6 +35,10 @@ def modulo(a, b):
     return a % b
 
 
+def absolute(a):
+    """Return the absolute value of a."""
+    return abs(a)
+
 if __name__ == "__main__":
     print(add(10, 5))
     print(subtract(20, 8))

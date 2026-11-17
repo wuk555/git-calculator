@@ -1,5 +1,5 @@
 import unittest
-from calculator import modulo, square
+from calculator import modulo, square, absolute
 
 
 class TestCalculator(unittest.TestCase):
@@ -28,6 +28,15 @@ class TestCalculator(unittest.TestCase):
 
     def test_square_fraction(self):
         self.assertEqual(square(2.5), 6.25)
+
+    def test_absolute_positive(self):
+        self.assertEqual(absolute(8), 8)
+
+    def test_absolute_negative(self):
+        self.assertEqual(absolute(-8), 8)
+
+    def test_absolute_zero(self):
+        self.assertEqual(absolute(0), 0)
 
 if __name__ == "__main__":
     unittest.main()
